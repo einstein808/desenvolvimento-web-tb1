@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+}
+.nav-item{margin-left: 20px;
+    font-family: 'Roboto-bold', sans-serif;
+    transition: transform .5s ease
+    
+
+
+}
+.nav-item:hover{
+    transform: scale(1.1)
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 800;
+    color: whitesmoke;
+    font-size: larger;
+    
+    
+}
+.nav-link:hover{
+color: blue;
+border-bottom: 1px solid blue;
+
+
+}
+.nav-bar{
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 10vh;
+}
+.corzinha{
+    background-color: chocolate;
+    width: 15vw;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+.texto-land{
+    width: 30vw;
+    height: 60vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+
+.texto-land h1{
+    font-weight: 600;
+    text-align: center;
+    font-size:50px;
+    margin-bottom: 20px;
+}
+.texto-land div{
+    width: 80%;
+}
+
+
+.texto-land p{
+    padding-bottom: 10px;
+    
+}
+
+.landing-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+.logo-land{
+    position: relative;
+    z-index: 2;
+    margin-right: -40px;
+    
+}
+.logo-land img{
+    width: 350px;
+    height: 300px;
+    -webkit-box-shadow: -5px 8px 19px 5px #000000; 
+    box-shadow: -5px 8px 19px 5px #000000;
+}
+footer{
+    margin-top: 70px;
+}
+.text-footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #484545;
+    color: bisque;
+    text-align: center;
+padding-top: 20px;
+
+}
+.main-footer{
+    width: 20%;
+    
+}
+.fim-footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #282626;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #484545;
+    height: 10vh;
+    padding-top: 10px;
+}
+ 
+.social{
+    width: 50px;
+    transition: transform .5s ease;
+}
+.fa-brands:hover{
+    color:blue !important;
+    transform: scale(1.1)
+    
+}
+.div-text button{
+    border:slategrey solid 1px;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    border-radius: 6px;
+}
+.div-text button:hover{
+background-color: darkgrey;
+color: whitesmoke;
+}

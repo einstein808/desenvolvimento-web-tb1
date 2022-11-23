@@ -1,0 +1,110 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+height: 100vh;
+
+
+}
+.conteudo h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: azure;
+    
+}
+.conteudo p{
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+.fundo{
+    background-image: url(https://images.unsplash.com/photo-1668606161328-c5073e2152e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+        filter: brightness(50%);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+.conteudo{position: relative;
+text-align: center;}
+.conteudo button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: chocolate;
+    color: beige;
+    font-size: 15px;
+    font-weight: 700;
+}
+.conteudo2 img{
+width: 500px;
+height: 500px;
+}
+.conteudo2 h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.conteudo2-text{
+    margin-left: 30px;
+}
+.conteudo2 p{ 
+    font-size: 20px;
+}
+footer{
+    margin-top: 70px;
+}
+.text-footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #484545;
+    color: bisque;
+    text-align: center;
+padding-top: 20px;
+
+}
+.main-footer{
+    width: 20%;
+    
+}
+.fim-footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #282626;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #484545;
+    height: 10vh;
+    padding-top: 10px;
+}
+ 
+.social{
+    width: 50px;
+    transition: transform .5s ease;
+}
+.fa-brands:hover{
+    color:blue !important;
+    transform: scale(1.1)
+    
+}
+.div-text button{
+    border:slategrey solid 1px;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    border-radius: 6px;
+}
+.div-text button:hover{
+background-color: darkgrey;
+color: whitesmoke;
+}
