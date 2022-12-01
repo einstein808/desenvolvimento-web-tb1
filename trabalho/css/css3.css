@@ -1,0 +1,180 @@
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+}
+.nav-item{margin-left: 20px;
+    font-family: 'Roboto-bold', sans-serif;
+    transition: transform .5s ease
+    
+
+
+}
+.nav-item:hover{
+    transform: scale(1.1)
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 800;
+    color: whitesmoke;
+    font-size: larger;
+    
+    
+}
+.nav-link:hover{
+color: blue;
+border-bottom: 1px solid blue;
+
+
+}
+.nav-bar{
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 10vh;
+}
+footer{
+    margin-top: 70px;
+}
+.text-footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #484545;
+    color: bisque;
+    text-align: center;
+padding-top: 20px;
+
+}
+.main-footer{
+    width: 20%;
+    
+}
+.fim-footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #282626;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #484545;
+    height: 10vh;
+    padding-top: 10px;
+}
+ 
+.social{
+    width: 50px;
+    transition: transform .5s ease;
+}
+.fa-brands:hover{
+    color:blue !important;
+    transform: scale(1.1)
+    
+}
+.div-text button{
+    border:slategrey solid 1px;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    border-radius: 6px;
+}
+.div-text button:hover{
+background-color: darkgrey;
+color: whitesmoke;
+}
+.mensagem-fix{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+
+    
+}
+
+.mensagem-fix .fa-solid{
+    color:blue !important;
+    
+}
+.fa-solid:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-form img{ width: 400px ;}
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.lado-esquedo-img{
+    width: 40%;
+}
+
+.main-form{
+    padding-top: 30px;
+}
+.lado-d-form input{
+    margin-bottom: 10px;}
+.lado-d-form{display: flex;
+width: 500px;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 20px;
+border-radius: 30px;
+background-color: rgb(2, 47, 47);
+color: whitesmoke;
+font-weight: 600;
+font-size: 20px;}
+.lado-d-form legend{margin-bottom: 10px;
+text-align: center;}
+.lado-d-form .btn_submit{
+    border-radius: 20px;
+    width: 170px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.main-table{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#table{
+    border: 1px solid black;
+}
+#table tr{
+    border:  1px solid black;
+}
+#table td{
+    border: 1px solid black;
+    padding: 20px;
+}
+.btn_excluir{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+.td-endereco, .td-idade, .td-salario, .td-filhos, .td-plano, .td-nome{
+    background-color: #484545;
+    color: white;
+}
+.td-acoes{ border: none;}

@@ -215,3 +215,17 @@ label {
 .mensagem-fix img:hover{
     transform: scale(1.1);
 }
+.nav-botao{
+    width: 200px;
+}
+.nav-botao li{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.nav-botao a:hover{
+    color: #ccc;
+}
+.nav-botao ul{
+    margin-top: 20px;
+}
